@@ -18,7 +18,7 @@ open class Human: Animal, Thinkable {
     }
 
     override fun say() {
-        Log.d("kotlintest", "「私の名前は" + this.name + "です。年は" + this.age + "歳です。")
+        Log.d("kotlintest", "「私の名前は" + this.name + "です。年は" + this.age + "歳です。」")
     }
 
 

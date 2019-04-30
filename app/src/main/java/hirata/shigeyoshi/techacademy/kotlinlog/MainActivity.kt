@@ -21,5 +21,12 @@ class MainActivity : AppCompatActivity() {
 
             human.think()
 
+
+            val human2 = Human("岡部倫太郎", 18, "平成最後の日")
+
+            human2.say()
+
+            human2.think()
+
     }
 }
